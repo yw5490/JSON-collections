@@ -56,6 +56,38 @@ let musicData = [
         "releaseYear": 2021,
         "albumCover": "albumCover/iMissYouIAmSorry.jpeg",
         "youtubeLink": "https://www.youtube.com/watch?v=nijx6Np0o40"
+    },
+    {
+        "title": "Dancing With Your Ghost",
+        "artist": "Sasha Alex Sloan",
+        "genre": "Pop",
+        "releaseYear": 2019,
+        "albumCover": "albumCover/dancingWithYourGhost.jpeg",
+        "youtubeLink": "https://www.youtube.com/watch?v=Qzc_aX8c8g4"
+    },
+    {
+        "title": "Consequences",
+        "artist": "Camila Cabello",
+        "genre": "Pop",
+        "releaseYear": 2018,
+        "albumCover": "albumCover/consequences.jpeg",
+        "youtubeLink": "https://www.youtube.com/watch?v=k73EBmeJ950"
+    },
+    {
+        "title": "The Butterfly Effect",
+        "artist": "Before You Exit",
+        "genre": "Pop",
+        "releaseYear": 2019,
+        "albumCover": "albumCover/theButterflyEffect.jpeg",
+        "youtubeLink": "https://www.youtube.com/watch?v=8SFo7A8sD04"
+    },
+    {
+        "title": "YOUTH",
+        "artist": "Troye Sivan",
+        "genre": "Pop",
+        "releaseYear": 2015,
+        "albumCover": "albumCover/youth.jpeg",
+        "youtubeLink": "https://www.youtube.com/watch?v=XYAghEq5Lfw"
     }
 ]
 
@@ -85,7 +117,7 @@ function addAlbum (album) {
     artist.textContent = album.artist;
 
     let details = document.createElement('p');
-    details.textContent = `${album.genre} | ${album.releaseYear}`;
+    details.textContent = `${album.genre} |  ${album.releaseYear}`;
 
     content.appendChild(title);
     content.appendChild(artist);
